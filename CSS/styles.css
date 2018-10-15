@@ -35,4 +35,7 @@ body {
   display: none;
 }
 
-.subMenu a:hover {display: block;}
+.subMenu:hover {
+  display: block;
+  background-color: green;
+}
