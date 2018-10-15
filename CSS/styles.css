@@ -2,6 +2,11 @@ body {
   font-family: helvetica;
 }
 
+#currentPage {
+  background-color: #666;
+  color: white;
+}
+
 .nav {
   margin: 0;
   padding: 0;
@@ -26,6 +31,8 @@ body {
   color: black;
 }
 
+
+
 .content {
   margin-left: 200px;
   padding: 1px 16px;
@@ -45,7 +52,6 @@ body {
 .menuBox:hover .subMenu {
   display: block;
   margin-top: 10px;
-  background-color: green;
 }
 
 .subMenu {display: none;}
