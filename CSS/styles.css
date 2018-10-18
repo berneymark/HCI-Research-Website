@@ -31,14 +31,6 @@ body {
   color: black;
 }
 
-
-
-.content {
-  margin-left: 200px;
-  margin-right: 50px;
-  padding: 1px 16px;
-}
-
 .menuBox > p {
   display: block;
   color: white;
@@ -56,3 +48,14 @@ body {
 }
 
 .subMenu {display: none;}
+
+.content {
+  margin-left: 200px;
+  margin-right: 50px;
+  padding: 1px 16px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
